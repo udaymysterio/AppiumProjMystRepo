@@ -63,10 +63,7 @@ public class AppStatus {
 			Thread.sleep(8000);
 		} catch (Exception e) {
 		}
-//			driver.findElement(By.id("com.android.permissioncontroller:id/continue_button")).click();
-//			Thread.sleep(5000);
-//			driver.findElement(By.id("android:id/button1")).click();
-//			Thread.sleep(2000);
+
 		WebElement Text = driver.findElement(By.xpath("//android.widget.TextView[@content-desc=\"Text\"]"));
 		System.out.println(Text.getText());
 		Text.click();
